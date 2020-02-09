@@ -18,8 +18,8 @@ jobs:
         - yasm
         - binutils-2.26
     before_install:
-    - scripts/replaceGcc.sh 5
-    - scripts/replaceBinUtils.sh 2.26
+    - ./scripts/replaceGcc.sh 5
+    - ./scripts/replaceBinUtils.sh 2.26
   - arch: amd64
     dist: xenial
     jdk: openjdk8
