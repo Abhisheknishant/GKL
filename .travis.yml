@@ -1,6 +1,9 @@
 language: java
 dist: trusty
 
+arch:
+    - amd64
+    - arm64
 jdk:
 - oraclejdk8
 
